@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnbordingScreen1">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="345dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#F1C5CAE9"
+        android:text="NEXT"
+        android:textColor="#070606"
+        android:textColorHint="#1F1D1D"
+        android:textColorLink="@color/purple"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgnext"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginBottom="98dp"
+        android:rotation="180"
+        android:rotationX="0"
+        android:rotationY="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnNext"
+        app:srcCompat="@drawable/previous"
+        tools:ignore="MissingConstraints" />
+
+        <ImageView
+                android:id="@+id/imglogo2"
+                android:layout_width="333dp"
+                android:layout_height="264dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginEnd="75dp"
+                android:layout_marginBottom="236dp"
+                app:layout_constraintBottom_toTopOf="@+id/btnNext"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/logo" />
+
+        <TextView
+                android:id="@+id/txtwemade"
+                android:layout_width="327dp"
+                android:layout_height="86dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Welcome to"
+                android:textColor="@color/black"
+                android:textSize="60sp"
+                app:layout_constraintBottom_toTopOf="@+id/imglogo2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.416"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.668" />
+
+      <TextView
+        android:id="@+id/txtcakefairy"
+        android:layout_width="265dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/agbalumo"
+        android:text="Cake Fairy"
+        android:textColor="#F4F4F8"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/imglogo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

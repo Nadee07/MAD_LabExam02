@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application 1</string>
+    <string name="btnNext">NEXT</string>
+    <string name="btnReg">Register</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnNext1">Next</string>
+    <string name="btnGetStarted">GET STARTED</string>
+    <string name="txtReg">Register</string>
+    <string name="edtTxtName">Enter  the full name</string>
+    <string name="edtTextEmail">Enter the email address</string>
+    <string name="editTextPhone">Enter the phone number</string>
+    <string name="edtTextAddress">Enter the delivery address</string>
+    <string name="edtTxtPassword">Password</string>
+    <string name="edtTxtPassword2">Confirm Password</string>
+    <string name="edtTxtPassword1">Password</string>
+    <string name="edtEmail1">Email</string>
+    <string name="password">Password</string>
+
+
+</resources>
